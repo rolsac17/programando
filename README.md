@@ -31,3 +31,17 @@ Lenguaje en el que se hace interactivo en el que programamos.(Interactividad)
 
 ### Javascript != Java
 No son los mismo, java es un lenguaje de programación para servidores, pensado tambien para aplicaciones de escritorio, popular en bancos, tambien se crean aplicaciones para android.
+
+### Primeros pasos en el navegador con alert
+
+```javascript
+
+alert('Hola mamá estoy programando');
+
+var x = 1;
+var y = 2;
+var z = x + y ;
+
+alert("El valor de z es: " + z);
+
+```
