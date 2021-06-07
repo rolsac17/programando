@@ -28,3 +28,6 @@ Lenguaje de estilos en cascada
 
 ### Qué es Javascript .js ?
 Lenguaje en el que se hace interactivo en el que programamos.(Interactividad)
+
+### Javascript != Java
+No son los mismo, java es un lenguaje de programación para servidores, pensado tambien para aplicaciones de escritorio, popular en bancos, tambien se crean aplicaciones para android.
