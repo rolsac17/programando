@@ -78,3 +78,37 @@ Se integro los tres en un archivo.
 
 </html>
 ```
+### Peso en otro planeta
+9.8 m/s² es la gravedad de la Tierra
+3.7 m/s² es la gravedad de Marte
+24.8 m/s² es la gravedad de Jupiter
+Mi peso 77kg
+pesoMarte = (miPeso * gravedadMarte)/gravedadTierra
+
+```html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu peso en un lugar donde pesas menos</title>
+</head>
+<body>
+    <h1>Tú peso en otro Planeta</h1>
+    <p>En la Tierra pesas distinto que en Marte o Jupiter</p>
+
+    <script type="text/javascript">
+        var gravedadTierra = 9.8;
+        var gravedadMarte = 3.7;
+        var gravedadJupiter = 24.8;
+        var peso = 77;
+
+        var pesoFinal;
+
+        pesoFinal = peso * gravedadMarte / gravedadTierra;
+        pesoFinal = parseInt(pesoFinal);
+         document.write("Peso en otro planeta es: " + pesoFinal);
+    </script>
+</body>
+</html>
+```
