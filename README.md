@@ -112,3 +112,5 @@ pesoMarte = (miPeso * gravedadMarte)/gravedadTierra
 </body>
 </html>
 ```
+
+### Obteniendo datos del usuario

@@ -11,16 +11,18 @@
     <p>En la Tierra pesas distinto que en Marte o Jupiter</p>
 
     <script type="text/javascript">
+        var usuario = prompt("Cual es tu Peso?");
+        var peso = parseInt(usuario);
         var gravedadTierra = 9.8;
         var gravedadMarte = 3.7;
         var gravedadJupiter = 24.8;
-        var peso = 77;
+        
 
         var pesoFinal;
 
         pesoFinal = peso * gravedadMarte / gravedadTierra;
-        pesoFinal = parseInt(pesoFinal);
-         document.write("Peso en otro planeta es: " + pesoFinal);
+        pesoFinal = parseFloat(pesoFinal);
+         document.write("Peso en otro planeta es:<strong> " + pesoFinal + " " + "Kilos</strong>");
     </script>
 </body>
 </html>
