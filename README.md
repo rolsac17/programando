@@ -114,3 +114,32 @@ pesoMarte = (miPeso * gravedadMarte)/gravedadTierra
 ```
 
 ### Obteniendo datos del usuario
+Ya que todavia no aprendemos a utilizar formulario y botones utilizaremos el prompt
+
+```javascript
+
+    var usuario = prompt("Cual es tu Peso?");
+```
+aparecera una ventana emergente preguntando cual es tu peso y el valor se guardara en la
+variable *usuario*.
+
+```javascript
+var pesoFinal;
+
+    pesoFinal = peso * gravedadMarte / gravedadTierra;
+    pesoFinal = parseFloat(pesoFinal);
+    document.write("Peso en otro planeta es:<strong> " + pesoFinal.toFixed(2) + " " + "Kilos</strong>");
+```
+con el *document.write* podemos escribir directamente en la pagina y podemos colocar etiquetas html
+dentro de el entre comillas.
+
+*parseFloat(pesoFinal)* convierte la variable pesoFinal de entero a Flotante o decimal.
+
+*pesoFinal.toFixed(2)* le decimos que solo queremos dos decimales a la cantidad flotante.
+
+```javascript
+ var peso = parseInt(usuario);
+```
+*parseInt(usuario)* convierte una variable caracter a un numero entero.
+
+
