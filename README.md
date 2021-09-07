@@ -161,6 +161,17 @@ if(planeta === 1)
         }
 ```
 
+### El DOM: Nuestro lugar de trabajo en la web
+Objetos por defectos del navegador:
+
+*Navigator*: hace refencia al navegador y el sistema operativo.
+
+*Window*: hace referencia a la venta o pestaña en la que estamos.
+
+*Document*: hace referencia en la pagina en la que estamos, tiene cada uno de los elementos de nuestra pagina.
+
+DOM : es la forma en el que el navegador organiza todos los elementos de la pagina
+
 
 
 
