@@ -142,4 +142,25 @@ dentro de el entre comillas.
 ```
 *parseInt(usuario)* convierte una variable caracter a un numero entero.
 
+### Estructuras de condición If
+
+El if nos sirve para agregar condiciones las cuales podemos encadenar las veces que queramos.
+
+```javascript
+if(planeta === 1)
+        {
+            pesoFinal = peso * gravedadMarte / gravedadTierra;
+            nombre_Planeta = "Marte";
+        }else if (planeta === 2)
+        {
+            pesoFinal = peso * gravedadJupiter / gravedadTierra;
+            nombre_Planeta = "Jupiter"
+        }else
+        {
+            document.write("<h1>Error opcion no valida</h1>");
+        }
+```
+
+
+
 
