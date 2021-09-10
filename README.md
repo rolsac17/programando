@@ -170,7 +170,7 @@ Objetos por defectos del navegador:
 
 *Document*: hace referencia en la pagina en la que estamos, tiene cada uno de los elementos de nuestra pagina.
 
-DOM : es la forma en el que el navegador organiza todos los elementos de la pagina
+DOM : es la forma en el que el navegador organiza todos los elementos de la pagina (Es como un arbol)
 
 
 
