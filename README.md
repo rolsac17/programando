@@ -176,8 +176,9 @@ DOM : es la forma en el que el navegador organiza todos los elementos de la pagi
 
 son objetos tannto window como document, todas las funciones que trae un objeto se llaman *Metodos* y todas las variables que contenga el objeto son *Atributos*.
 
+### Dibujando en el DOM
 
-
+Para dibujar en el DOM utilizaremos la etiqueta *<canvas>* 
 
 
 
