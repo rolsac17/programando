@@ -170,7 +170,13 @@ Objetos por defectos del navegador:
 
 *Document*: hace referencia en la pagina en la que estamos, tiene cada uno de los elementos de nuestra pagina.
 
-DOM : es la forma en el que el navegador organiza todos los elementos de la pagina (Es como un arbol)
+DOM : es la forma en el que el navegador organiza todos los elementos de la pagina (Es como un arbol).
+
+### Como funciona Window y Document
+
+son objetos tannto window como document, todas las funciones que trae un objeto se llaman *Metodos* y todas las variables que contenga el objeto son *Atributos*.
+
+
 
 
 
